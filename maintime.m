@@ -5,7 +5,7 @@ Pb = 10^(10/10);
 sigm2 = 10^(-104/10); 
 Ps = 10^(0/10); 
 beita = Ps/sigm2;
-num_iterations = 1;
+num_iterations = 10000;
 itersmax_bcd = 5;
 
 m_values = [10, 20, 30, 40];  
