@@ -7,6 +7,7 @@ problem. To address the computational complexity involved in optimizing the RIS 
 
 # Content of Code Package
 This script performs the numerical evaluation of various RIS and beamforming schemes in a secure two-way relay (TWR) communication system. The results are accumulated over multiple iterations to analyze the overall performance. The following six schemes are implemented:
+
 CCB (ccopt function): Implements the conventional channel capacity-based transmission scheme without employing physical layer security (PLS) techniques.Computes the secrecy rate (ccsr) and secrecy energy efficiency (cceta).
 
 Random (ranopt function): A baseline scheme where both the RIS phase shifts and beamforming matrices are randomly selected from the feasible set. Computes the secrecy rate (ransr) and secrecy energy efficiency (raneta).
