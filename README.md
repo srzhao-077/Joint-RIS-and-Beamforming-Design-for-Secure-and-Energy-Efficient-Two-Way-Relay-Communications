@@ -21,3 +21,10 @@ SEE-sub (seeoptsub function): A low-complexity suboptimal secrecy energy efficie
 SEE-lopt (seeopt function): A locally optimal secrecy energy efficiency (SEE) maximization scheme. Jointly optimizes the RIS phase shifts and beamforming matrices for SEE enhancement. Computes the secrecy rate (seoptsr) and secrecy energy efficiency (seopteta).
 
 For each scheme, the computed secrecy rate and secrecy energy efficiency values are accumulated to obtain the total performance metrics over multiple iterations.
+
+# Requirement
+To run this code, you need to install CVX: Matlab software for disciplined convex programming, version 2.1.
+
+Download CVX: https://cvxr.com/cvx (Mar. 2014)
+
+Ensure that CVX is properly installed and added to the MATLAB path before running the simulations. 
